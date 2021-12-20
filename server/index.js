@@ -51,6 +51,7 @@ app.post("/save", (req, res) => {
     }
 });
 
+// was supposed to use get but i didnt have the time to figure out how to pass data thru url
 app.post("/getall", (req, res) => {
     let search = req.body.search;
     try {
